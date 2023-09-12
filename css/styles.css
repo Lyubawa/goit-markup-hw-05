@@ -484,8 +484,7 @@ transform: translateY(0%);
     letter-spacing: 0.04em;
     padding-left: 16px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    margin-right: 24px;
-  }
+      }
   .subscribe-input::placeholder{
     color: #ffffff;
       }
@@ -509,8 +508,9 @@ transform: translateY(0%);
         background-color: var(--IRIS, #4D5AE5);
                 fill: #FFFFFF;
   }
-  .subscribe-icon{
-    margin-left: 16px;
+  .subscribe-btn:hover,
+  .subscribe-btn:focus {
+      background-color: #404BBF;
   }
   /* ===== BACKDROP ===== */
   .backdrop{
