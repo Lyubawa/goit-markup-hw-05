@@ -495,7 +495,7 @@ transform: translateY(0%);
         padding: 8px 24px;
         justify-content: center;
         align-items: center;
-        gap: 16px;
+        /* gap: 16px; */
         border: none;
         border-radius: 4px;
         color: var(--WHITE, #FFF);
@@ -511,6 +511,9 @@ transform: translateY(0%);
   .subscribe-btn:hover,
   .subscribe-btn:focus {
       background-color: #404BBF;
+  }
+  .subscribe-icon{
+    margin-left: 16px;
   }
   /* ===== BACKDROP ===== */
   .backdrop{
